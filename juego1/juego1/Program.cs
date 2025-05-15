@@ -73,6 +73,7 @@ namespace juego_1_op
             {
                 #region jugador 1
                 dado = azar.Next(1, 7);
+                posicion1 += dado;
                 if (cabecera == posicion1)
                 {
                     posicion1 = cola;
@@ -92,6 +93,7 @@ namespace juego_1_op
 
                 #region jugador 2
                 dado = azar.Next(1, 7);
+                posicion2 += dado;
                 if (cabecera == posicion2)
                 {
                     posicion2 = cola;
